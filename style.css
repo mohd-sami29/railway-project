@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  line-height: 1.6;
+}
+header {
+  background-color: rgb(1 1 1 / 75%);
+
+  text-align: center;
+  padding: 1rem;
+}
+.booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  padding: 1%;
+}
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+form {
+  display: grid;
+  gap: 1rem;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 0.5rem;
+}
+input[type="submit"] {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+input[type="submit"]:hover {
+  background-color: #555;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Body, Quicksand, sans-serif;
+  margin-right: 100px;
+}
+footer {
+  background-color: rgb(1 1 1 / 75%);
+  height: 8vh;
+}
+.railways {
+  display: inline-flexbox;
+  justify-content: center;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+}
+h1 {
+  color: rgb(255, 0, 0);
+}
+p {
+  color: black;
+}
+.logo {
+  position: absolute;
+}
